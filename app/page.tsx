@@ -1,10 +1,5 @@
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "vzan2012",
-  description: "Blog Portfolio",
-};
-
 const Home = () => {
   return (
     <main className="px-6 mx-auto">
