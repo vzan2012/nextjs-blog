@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Posts from "./components/Posts";
 
 const Home = () => {
   return (
@@ -9,6 +10,9 @@ const Home = () => {
           I'm <span className="font-bold">vzan2012</span>
         </span>
       </p>
+
+      {/* Blog Posts - Section  */}
+      <Posts />
     </main>
   );
 };
