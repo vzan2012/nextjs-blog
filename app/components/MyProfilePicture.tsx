@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const MyProfilePicture = ({ username }) => {
+const MyProfilePicture = ({ username }: { username: string }) => {
   return (
     <section className="w-full mx-auto">
       <Image

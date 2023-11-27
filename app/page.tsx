@@ -7,7 +7,7 @@ const Home = () => {
       <p className="mt-12 mb-12 text-center text-3xl text-white">
         Hello &amp; Welcome 👍 &nbsp;
         <span className="whitespace-nowrap">
-          I'm <span className="font-bold">vzan2012</span>
+          I&apos;m <span className="font-bold">vzan2012</span>
         </span>
       </p>
 
